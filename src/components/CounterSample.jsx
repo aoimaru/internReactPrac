@@ -9,7 +9,7 @@ const CounterSample = () => {
 		if (count < 20){
 			setCount(count+1);
 		}else{
-			setCount(0)
+			setCount(0);
 		}
 		
 	};
@@ -18,7 +18,7 @@ const CounterSample = () => {
 		if (count > 1){
 			setCount(count-1);
 		}else{
-			setCount(0)
+			setCount(0);
 		}
 		
 	};

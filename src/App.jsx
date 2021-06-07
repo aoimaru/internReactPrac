@@ -4,6 +4,7 @@ import ColorSample from "./components/ColorSample";
 import ChartSample from "./components/ChartSample";
 import CounterSample from "./components/CounterSample";
 import ApiSample from "./components/ApiSample";
+import EffectSample from "./components/EffectSample";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <ChartSample />
       <CounterSample />
       <ApiSample />
+      <EffectSample />
     </div>
 
   );
