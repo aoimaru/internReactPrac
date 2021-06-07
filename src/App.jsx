@@ -2,6 +2,7 @@
 import './App.css';
 import ColorSample from "./components/ColorSample";
 import ChartSample from "./components/ChartSample";
+import CounterSample from "./components/CounterSample";
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
         hello
       <ColorSample />*/}
       <ColorSample color="blue" message="元気です">
-        降水量
+        降水量 (コンポーネントによる色付け)
       </ColorSample>
       <ChartSample />
+      <CounterSample />
     </div>
 
   );
