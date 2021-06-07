@@ -9,6 +9,8 @@ const ApiSample = () => {
 	axios.get(URL).then(res => {
   		console.log(res.data);
 	});
+
+	
 	return (
 		<h1> hello </h1>
 		);
