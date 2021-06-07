@@ -3,6 +3,7 @@ import './App.css';
 import ColorSample from "./components/ColorSample";
 import ChartSample from "./components/ChartSample";
 import CounterSample from "./components/CounterSample";
+import ApiSample from "./components/ApiSample";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       </ColorSample>
       <ChartSample />
       <CounterSample />
+      <ApiSample />
     </div>
 
   );
